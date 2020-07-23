@@ -5,35 +5,65 @@
     <title>Pure Bliss Appointment Booking</title>
     <link href="css/pbform.css" rel="stylesheet">
     <script src="js/booking.js"></script>
+
 </head>
 
+<body>
+    <h1>About us</h1>
 
+    <h1>Services</h1>
+    <h1>Executive Barber Service</h1>
+    <p>We offer executive haircuts that will leave you looking professional and dapper. We also offer rejuvenating
+        massages to help you relax and unwind as well as manicures, pedicures and facials</p>
+    <button id="popup" onclick="div_show()">Book Appointment</button>
 
-<!-- Booking Form Body Starts Here -->
-
-<body id="body" style="overflow:hidden;">
+    <!-- Popup Div Starts Here -->
     <div id="pb-form">
-
-        <!-- Popup Div Starts Here -->
         <div id="popupBooking">
-
-            <!--img id="close" src="/images/logo/purebliss.png" onclick="div_hide()"-->
             <!-- booking Form -->
             <form action="#" id="form" method="post" name="form">
                 <div>
                     <h2 id="close" onclick="div_hide()">Pure Bliss Appointment Booking</h2>
                 </div>
                 <hr>
-                <input id="name" name="name" placeholder="Name" type="text">
-                <input id="phone" name="phone" placeholder="Phone Number" type="text">
-                <input id="email" name="email" placeholder="Email" type="text">
-                <input id="service" name="service" placeholder="Select Service" type="text">
-                <input id="date" name="date" placeholder="Date" type="text">
-                <input id="slot" name="slot" placeholder="Select Slot" type="text">
+                <label for="name" id="label">Full name:</label><br>
+                <input id="name" name="name" placeholder="Name" type="name"><br><br>
+
+                <label for="phone" id="label">Phone:</label><br>
+                <input id="phone" name="phone" placeholder="Phone Number" type="tel"><br><br>
+
+                <label for="email" id="label">Email:</label><br>
+                <input id="email" name="email" placeholder="Email" type="email"><br><br>
+
+                <label for="service" id="label">Select Service:</label><br>
+                <input type="checkbox" id="service" value="Executive Barber Service" /><label for="barber">Executive
+                    Barber Services</label><br>
+                <input type="checkbox" id="service" value="Hair Services" /><label for="hair">Hair Services</label><br>
+                <input type="checkbox" id="service" value="Beauty Services" /><label for="beauty">Beauty
+                    Services</label><br>
+                <input type="checkbox" id="service" value="Spa and Coiffure" /><label for="spa">Spa and
+                    Coiffure</label><br>
+                <input type="checkbox" id="service" value="Nail Services" /><label for="nail">Nail Services</label><br>
+                <input type="checkbox" id="service" value="Hair Services" /><label for="hair">Hair
+                    Services</label><br><br>
+
+                <label for="date" id="label">Date of Appointment:</label><br>
+                <input id="date" name="date" placeholder="Select Date" type="date"><br><br>
+
+                <label for="slot" id="label">Time-Slot:</label><br>
+                <select id="slot" name="slot">
+                    <option value="8am-10am">8am - 10am</option>
+                    <option value="10am-12am">10am - 12am</option>
+                    <option value="12am-3pm">12am - 3pm</option>
+                    <option value="3pm-5pmm">3pm - 5pm</option>
+                    <option value="5pm-6pm">5pm - 6pm</option>
+                    <option value="6pm-8pm">6pm - 8pm</option>
+                </select><br><br>
+
                 <div>
                     <a href="javascript:%20check_empty()" id="submit">Book Appointment</a>
                 </div>
-                
+
             </form>
             <!-- booking Form ends here-->
 
@@ -41,12 +71,6 @@
         <!-- Popup Div Ends Here -->
     </div>
 
-    <!-- Display Popup Button -->
-    <h1>Executive Barber Service</h1>
-    <p>We offer executive haircuts that will leave you looking professional and dapper. We also offer rejuvenating
-        massages to help you relax and unwind as well as manicures, pedicures and facials</p>
-    <button id="popup" onclick="div_show()">Book Appoitment</button>
+    <h1>Contact Us</h1>
 </body>
 <!-- Body Ends Here -->
-
-</html>
