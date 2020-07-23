@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .contact_form{
     background-image: url(../images/contact.jpg);
     padding-top: 10px;
@@ -86,6 +87,59 @@ h2#close {
     margin-left: -202px;
     font-family: 'Raleway', sans-serif
 } */
+=======
+.body{
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+
+.logo{
+    text-align: right;
+    background-image:linear-gradient(to right, black, deeppink);
+   
+}
+
+.logo img{
+    width: 125px;
+    height:80px;
+    float:left;
+
+}
+
+.menu{
+    background-image: url("backgrounds/salon.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 1110px;
+    height: 400px;
+    
+    
+    
+
+}
+
+.head{
+    background: transparent;
+    text-align: center;
+    color: deeppink;
+    font-weight: bold;
+    position: absolute;
+    padding-right: 100px;
+    padding-top:180px;
+    padding-left: 300px;
+    font-size:110px;
+    text-transform: uppercase;
+    text-shadow: dimgray ;
+   
+
+}
+
+
+.about img{
+    float: left;
+    height: 250px;
+>>>>>>> 5523d2e... Adding more styles
 
 #form1 {
     max-width: 300px;
@@ -99,6 +153,7 @@ h2#close {
     background-blend-mode: darken;
 }
 
+<<<<<<< HEAD
 #label {
     font-style: italic;
     font-weight: bold;
@@ -166,4 +221,26 @@ button {
     font-size: 20px;
     cursor: pointer;
     border-radius: 5px
+=======
+.about{
+    text-align: center;
+    background-image: linear-gradient(to bottom, black, deeppink);
+    color:white;
+}
+
+.testimonials{
+    background-image: url("backgrounds/Hair-Salon.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align:center;
+    width: 1110px;
+    height: 400px;
+
+}
+
+.tstmns{
+    background-image: transparent;
+    color: deeppink;
+    padding-top:50px;
+>>>>>>> 5523d2e... Adding more styles
 }
