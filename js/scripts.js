@@ -8,14 +8,14 @@ function check_empty() {
         alert("Booking Submitted Successfully...");
     }
 }
-//Function To Display Popup
+/*Function To Display Popup
 function div_show() {
     document.getElementById('pb-form').style.display = "block";
 }
-//Function to Hide Popup
+Function to Hide Popup
 function div_hide() {
-    document.getElementById('pb-form').style.display = "none";
-}
+    document.getElementById('pb-form').style.display = "none";*/
+
 //Function for Contact-us form notifications
 $(document).ready(function(){
     $("form#message-form").submit(function(event){
@@ -30,4 +30,3 @@ $(document).ready(function(){
       }
     });
   });
-

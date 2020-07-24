@@ -22,7 +22,7 @@ img#close {
 }
 
 h2#close {
-        cursor: pointer
+    cursor: pointer
 }
 
 div#popupBooking {
@@ -60,7 +60,8 @@ h2 {
     padding: 20px 35px;
     margin: -10px -50px;
     text-align: center;
-    color: #e93479;;
+    color: #e93479;
+    ;
     border-radius: 10px 10px 0 0
 }
 
