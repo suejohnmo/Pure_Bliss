@@ -40,13 +40,12 @@
   background-color: #e90505;
 }
 .footer {
-  background-color: coral;
+
+color:white;
   padding-top: 10%;
   padding: 3%;
 }
-.footer p {
-  background-color: coral;
-}
+
 .footer-img {
   float: right;
   width: 25px;
