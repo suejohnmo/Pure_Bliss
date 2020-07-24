@@ -165,15 +165,10 @@ h2#close {
 }
 
 #form1 {
-  max-width: 300px;
-  min-width: 250px;
-  padding: 10px 50px;
-  border: 2px solid gray;
-  border-radius: 10px;
+  max-width: 460px;
+  min-width: 240px;
+  padding: 10px 20px 10px 20px;
   font-family: raleway;
-  background-image: url(/images/salon2.jpeg);
-  background-size: cover;
-  background-blend-mode: darken;
 }
 
 #label {

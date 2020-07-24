@@ -9,7 +9,7 @@ function check_empty() {
   ) {
     alert("Fill All Fields !");
   } else {
-    document.getElementById("form").submit();
+    document.getElementById("form1").submit();
     alert("Booking Submitted Successfully...");
   }
 }
