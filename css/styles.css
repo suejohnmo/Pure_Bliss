@@ -261,6 +261,7 @@ button {
 .d-block{
     color:deeppink;
     font-size:23px;
+    font-style: italic;
 }
 
 .carousel-item small{
