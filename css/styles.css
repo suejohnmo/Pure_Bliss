@@ -99,7 +99,7 @@ h2#close {
   width: 125px;
   height: 80px;
   float: left;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .navbar {
@@ -243,12 +243,12 @@ button {
   color: white;
 }
 
-.testimonials {
+#testimonials {
   background-image: url("backgrounds/Hair-Salon.png");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  width: 1110px;
+  width: 1000px;
   height: 400px;
 }
 
@@ -257,7 +257,21 @@ button {
   color: deeppink;
   padding-top: 50px;
 }
-//functionfor services
+
+.d-block{
+    color:deeppink;
+    font-size:23px;
+    font-style: italic;
+}
+
+.carousel-item small{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+
+}
+
 @import url("https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap");
 
 html {
