@@ -5,6 +5,14 @@
   font-weight: 600px;
   text-emphasis-color: rgb(120, 6, 124);
 }
+
+.our-services img{
+
+width: 300px;
+
+margin: 20px;
+
+}
 .content {
   margin-top: 1%;
   text-align: center;
