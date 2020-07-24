@@ -1,7 +1,7 @@
 // Validating Empty Field
 function check_empty() {
     if (document.getElementById('name').value == "" || document.getElementById('phone').value == "" || document.getElementById('email').value == "" ||
-        document.getElementById('service').value == "" || document.getElementById('date').value == "" || document.getElementById('slot').value == "") {
+        document.getElementById('date').value == "" || document.getElementById('slot').value == "") {
         alert("Fill All Fields !");
     } else {
         document.getElementById('form').submit();
