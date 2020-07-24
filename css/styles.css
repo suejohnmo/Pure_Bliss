@@ -456,11 +456,14 @@ footer {
   text-align: center;
   padding-top: 30px;
   font-family: "Delius Swash Caps", cursive;
+  background-image:linear-gradient(to left, deeppink, black);
+  
 }
 
 footer p {
   margin-top: 10px;
 }
+
 
 #spa,
 #haircare,
