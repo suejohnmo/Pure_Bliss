@@ -1,57 +1,56 @@
-<<<<<<< HEAD
-.contact_form{
-    background-image: url(../images/contact.jpg);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-weight: 600px;
-    text-emphasis-color: rgb(120, 6, 124);
+.contact_form {
+  background-image: url(../images/contact.jpg);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 600px;
+  text-emphasis-color: rgb(120, 6, 124);
 }
-.content{
-    margin-top: 1%;
-    text-align: center;
-    color: rgb(12, 9, 9);
-    padding: 10px;
+.content {
+  margin-top: 1%;
+  text-align: center;
+  color: rgb(12, 9, 9);
+  padding: 10px;
 }
-.content p{
-    font-size: 18px;
-    padding-top: 1px;
+.content p {
+  font-size: 18px;
+  padding-top: 1px;
 }
-.contact_form h1{
-    color: #96138b;
-    padding: 10px;
-    background-color:  rgb(20, 16, 16);
-    border-bottom: 1px solid rgb(20, 16, 16);
-    font-weight: 600px;
-    text-align: center;  
+.contact_form h1 {
+  color: #96138b;
+  padding: 10px;
+  background-color: rgb(20, 16, 16);
+  border-bottom: 1px solid rgb(20, 16, 16);
+  font-weight: 600px;
+  text-align: center;
 }
-.form-row{
-    width: 100%;
+.form-row {
+  width: 100%;
 }
-.form{
-    width: 100%;
+.form {
+  width: 100%;
 }
-.btn1{
-    width: 20%;
-    float: left;
-    background-color: #4CAF50;
+.btn1 {
+  width: 20%;
+  float: left;
+  background-color: #4caf50;
 }
-.btn2{
-    width: 20%;
-    float: right;
-    background-color: #e90505;
+.btn2 {
+  width: 20%;
+  float: right;
+  background-color: #e90505;
 }
-.footer{
-    background-color: coral;
-    padding-top: 10%;
-    padding: 3%;
+.footer {
+  background-color: coral;
+  padding-top: 10%;
+  padding: 3%;
 }
-.footer p{
-    background-color: coral;
+.footer p {
+  background-color: coral;
 }
-.footer-img{
-    float: right;  
-    width:25px;
-    height:25px;    
+.footer-img {
+  float: right;
+  width: 25px;
+  height: 25px;
 }
 @import "http://fonts.googleapis.com/css?family=Raleway";
 
@@ -59,25 +58,25 @@
 CSS settings for HTML div Exact Center
 ------------------------------------------------*/
 #pb-form {
-    width: 100%;
-    height: 100%;
-    opacity: .95;
-    top: 0;
-    left: 0;
-    display: none;
-    position: fixed;
-    overflow: auto
+  width: 100%;
+  height: 100%;
+  opacity: 0.95;
+  top: 0;
+  left: 0;
+  display: none;
+  position: fixed;
+  overflow: auto;
 }
 
 img#close {
-    position: absolute;
-    right: -14px;
-    top: -14px;
-    cursor: pointer
+  position: absolute;
+  right: -14px;
+  top: -14px;
+  cursor: pointer;
 }
 
 h2#close {
-    cursor: pointer
+  cursor: pointer;
 }
 
 /* div#popupBooking {
@@ -87,192 +86,174 @@ h2#close {
     margin-left: -202px;
     font-family: 'Raleway', sans-serif
 } */
-=======
-.body{
-    font-family: 'Oxygen', sans-serif;
+.body {
+  font-family: "Oxygen", sans-serif;
 }
 
-
-
-.logo{
-    text-align: right;
-    background-image:linear-gradient(to right, black, deeppink);
-   
+.logo {
+  text-align: right;
+  background-image: linear-gradient(to right, black, deeppink);
 }
 
-.logo img{
-    width: 125px;
-    height:80px;
-    float:left;
-    padding-bottom: 10px;
-
+.logo img {
+  width: 125px;
+  height: 80px;
+  float: left;
+  padding-bottom: 10px;
 }
 
 .navbar {
-    width: 50%;
-    
-    overflow: auto;
-    float: right;
-   
-  }
-  
-  .navbar a {
-    
-    padding: 12px;
-    color: white;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .navbar a:hover {
-    background-color: #000;
-  }
-  
-  /* .active {
+  width: 50%;
+
+  overflow: auto;
+  float: right;
+}
+
+.navbar a {
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* .active {
     background-color:deeppink; */
-  }
-  
-  @media screen and (max-width: 500px) {
-    .navbar a {
-      float: none;
-      display: block;
-    }
-  }
 
-.menu{
-    background-image: url("backgrounds/salon.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
-    width: 1110px;
-    height: 400px;
-    
-    
-    
-
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
 }
 
-.head{
-    background: transparent;
-    text-align: center;
-    color: deeppink;
-    font-weight: bold;
-    position: absolute;
-    padding-right: 100px;
-    padding-top:180px;
-    padding-left: 300px;
-    font-size:110px;
-    text-transform: uppercase;
-    text-shadow: dimgray ;
-   
-
+.menu {
+  background-image: url("backgrounds/salon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1110px;
+  height: 400px;
 }
 
+.head {
+  background: transparent;
+  text-align: center;
+  color: deeppink;
+  font-weight: bold;
+  position: absolute;
+  padding-right: 100px;
+  padding-top: 180px;
+  padding-left: 300px;
+  font-size: 110px;
+  text-transform: uppercase;
+  text-shadow: dimgray;
+}
 
-.about img{
-    float: left;
-    height: 250px;
->>>>>>> 5523d2e... Adding more styles
+.about img {
+  float: left;
+  height: 250px;
+}
 
 #form1 {
-    max-width: 300px;
-    min-width: 250px;
-    padding: 10px 50px;
-    border: 2px solid gray;
-    border-radius: 10px;
-    font-family: raleway;
-    background-image: url(/images/salon2.jpeg);
-    background-size: cover;
-    background-blend-mode: darken;
+  max-width: 300px;
+  min-width: 250px;
+  padding: 10px 50px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  font-family: raleway;
+  background-image: url(/images/salon2.jpeg);
+  background-size: cover;
+  background-blend-mode: darken;
 }
 
-<<<<<<< HEAD
 #label {
-    font-style: italic;
-    font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 p {
-    margin-top: 30px
+  margin-top: 30px;
 }
 
 h2 {
-    background-color: #050500;
-    padding: 20px 35px;
-    margin: -10px -50px;
-    text-align: center;
-    color: #e93479;
-    ;
-    border-radius: 10px 10px 0 0
+  background-color: #050500;
+  padding: 20px 35px;
+  margin: -10px -50px;
+  text-align: center;
+  color: #e93479;
+  border-radius: 10px 10px 0 0;
 }
 
 hr {
-    margin: 10px -50px;
-    border: 0;
-    border-top: 1px solid #ccc
+  margin: 10px -50px;
+  border: 0;
+  border-top: 1px solid #ccc;
 }
 
-input[type=text] {
-    width: 82%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    padding-left: 40px;
-    font-size: 16px;
-    font-family: raleway
+input[type="text"] {
+  width: 82%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  padding-left: 40px;
+  font-size: 16px;
+  font-family: raleway;
 }
 
 #submit {
-    text-decoration: none;
-    width: 100%;
-    text-align: center;
-    display: block;
-    background-color: #e93479;
-    color: #fff;
-    border: 1px solid #e93479;
-    padding: 10px 0;
-    font-size: 20px;
-    cursor: pointer;
-    border-radius: 5px
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  display: block;
+  background-color: #e93479;
+  color: #fff;
+  border: 1px solid #e93479;
+  padding: 10px 0;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 span {
-    color: red;
-    font-weight: 700
+  color: red;
+  font-weight: 700;
 }
 
 button {
-    text-decoration: none;
-    width: 30%;
-    text-align: center;
-    display: block;
-    background-color: #e93479;
-    color: #fff;
-    border: 1px solid #e93479;
-    padding: 10px 0;
-    font-size: 20px;
-    cursor: pointer;
-    border-radius: 5px
-=======
-.about{
-    text-align: center;
-    background-image: linear-gradient(to bottom, black, deeppink);
-    color:white;
+  text-decoration: none;
+  width: 30%;
+  text-align: center;
+  display: block;
+  background-color: #e93479;
+  color: #fff;
+  border: 1px solid #e93479;
+  padding: 10px 0;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.about {
+  text-align: center;
+  background-image: linear-gradient(to bottom, black, deeppink);
+  color: white;
 }
 
-.testimonials{
-    background-image: url("backgrounds/Hair-Salon.png");
-    background-repeat: no-repeat;
-    background-size:cover;
-    text-align:center;
-    width: 1110px;
-    height: 400px;
-
+.testimonials {
+  background-image: url("backgrounds/Hair-Salon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 1110px;
+  height: 400px;
 }
 
-.tstmns{
-    background-image: transparent;
-    color: deeppink;
-    padding-top:50px;
->>>>>>> 5523d2e... Adding more styles
+.tstmns {
+  background-image: transparent;
+  color: deeppink;
+  padding-top: 50px;
 }
