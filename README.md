@@ -10,7 +10,7 @@ Thanks to the team that worked tirelessly to be able to come up with this amazin
  - Luka Thuita
  
  #Live Site
- https://suejohnmo.github.io/Pure_Bliss/
+ https://suejohnmo.github.io/Pure_Bliss//
  
 # Table of Contents
 - [Technology Stack](#technology-stack)
