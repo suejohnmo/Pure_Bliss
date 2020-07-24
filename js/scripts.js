@@ -41,10 +41,10 @@ $(document).ready(function () {
 $(document).ready(function () {
   $("#spa-image").click(function () {
     $("#spa-image").slideDown("2500").hide("2000");
-    $("#spa").show("2500");
+    $("#Spa").show("2500");
   });
-  $("#spa").click(function () {
-    $("#spa").slideUp("2500");
+  $("#Spa").click(function () {
+    $("#Spa").slideUp("2500");
     $("#spa-image").slideDown("2500");
   });
 });
