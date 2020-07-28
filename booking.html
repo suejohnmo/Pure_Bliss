@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pure Bliss Palour - All about Beauty</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+    <script src="js/scripts.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo jumbotron">
+            <img src="images/logo/purebliss.png" />
+            <div class="navbar">
+                <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+                <a href="#"><i class="fa fa-fw fa-services"></i> Services</a>
+
+                <a href="#"><i class="fa fa-fw fa-about"></i> About us</a>
+                <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+            </div>
+        </div>
+
+        <section class="menu">
+            <div class="head">
+                <h3><strong>WE CARE ABOUT YOUR HAIR</strong></h3>
+                <!-- <button
+      type="button"
+      class="btn btn-primary"
+      data-toggle="modal"
+      data-target="#exampleModalCenter"
+    >
+      Book Appointment
+    </button> -->
+            </div>
+        </section>
+
+        <div class="about">
+            <h3><strong>Pure-Bliss Appointment Booking</strong></h3>
+            <p>Kindly fill the below form to book an appointment with us. One of our representatives will be intouch with you to confirm the booking.</p>
+            <form action="https://arkcomkenya.us17.list-manage.com/subscribe/post" method="POST" id="form" name="form">
+                <input type="hidden" name="u" value="b3e00e867734dff1127b32608" />
+                <input type="hidden" name="id" value="33c8e9eb3d" />
+                <div class="container">
+                    <!--Names-->
+                    <div class="row">
+                        <div class="col">
+                            <label for="Fname" id="label">First Name:</label>
+                            <input type="text" class="form-control" placeholder="Enter First Name" id="name" name="MERGE1">
+                        </div>
+                        <div class="col">
+                            <label for="Lname" id="label">Last Name:</label>
+                            <input type="text" class="form-control" placeholder="Enter last Name" id="name" name="MERGE1">
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <!--Phone and email-->
+                    <div class="row">
+                        <div class="col">
+                            <label for="phone" id="label">Phone Number:</label>
+                            <input type="text" class="form-control" placeholder="Enter Phone number" id="phone" name="MERGE3">
+                        </div>
+                        <div class="col">
+                            <label for="email" id="label">Email:</label>
+                            <input type="text" class="form-control" placeholder="Enter Email" id="email" name="MERGE0">
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+
+                    <!--Services-->
+                    <div class="row">
+                        <h6 id="label">Select Services:</b6>
+                            <div class="col">
+                                <div class="form-check-inline">
+                                    <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="Beauty Services">Beauty Services
+                  </label>
+                                </div>
+                                <div class="form-check-inline">
+                                    <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="Executive Barber Service">Executive Barber
+                    Service
+                  </label>
+                                </div>
+                                <div class="form-check-inline">
+                                    <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="Hair Services">Hair Services
+                  </label>
+                                </div>
+                                <div class="form-check-inline">
+                                    <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="Spa and Coiffure">Spa and Coiffure
+                  </label>
+                                </div>
+                                <div class="form-check-inline">
+                                    <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="Nail Services">Nail Services
+                  </label>
+                                </div>
+                                <div class="form-check-inline">
+                                    <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="Kids Grooming Services">Kids Grooming
+                    Services
+                  </label>
+                                </div>
+
+                            </div>
+                    </div>
+                    <br>
+                    <br>
+                    <!--Date and Slot-->
+
+                    <div class="row">
+                        <div class="col">
+                            <h6 id="label">Date of Appointment:</b6>
+                                <input placeholder="Select date" type="date" id="date" class="form-control">
+                        </div>
+                        <div class="col">
+                            <h6 id="label">Choose Appointment Slot:</b6>
+                                <select class="form-control" id="slot">
+                                  <option value="">Select Slot</option>
+                                  <option value="8AM - 10AM">8AM - 10AM</option>
+                                  <option value="10AM - 12PM">10AM - 12PM</option>
+                                  <option value="12PM - 2PM">12PM - 2PM</option>
+                                  <option value="2PM - 4PM">2PM - 4PM</option>
+                                  <option value="4PM - 6PM">4PM - 6PM</option>
+                                  <option value="6PM - 8PM">6PM - 8PM</option>
+                                </select>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="comment" id="label">Any other requests:</label>
+                            <textarea class="form-control" rows="5" id="comment"></textarea>
+                        </div>
+                    </div>
+
+                </div>
+                <br>
+                <br>
+
+                <div>
+                    <a href="javascript:%20check_empty()" id="submit" class="btn btn-primary">Book Appointment </a>
+                </div>
+            </form>
+            <!-- booking Form ends here-->
+            <br>
+            <br>
+        </div>
+
+        <div class="w3-row w3-center w3-black w3-padding-16">
+            <div class="w3-quarter w3-section">
+                <span class="w3-xlarge">4000+</span><br> Haircuts
+            </div>
+            <div class="w3-quarter w3-section">
+                <span class="w3-xlarge">2400+</span><br> Faces washed
+            </div>
+            <div class="w3-quarter w3-section">
+                <span class="w3-xlarge">5730+</span><br> Colored Hair
+            </div>
+            <div class="w3-quarter w3-section">
+                <span class="w3-xlarge">3400+</span><br> Happy Clients
+            </div>
+        </div>
+    </div>
+
+
+    <!--Footer begins here-->
+    <div>
+        <footer class="footer">
+            <p style="float: left;">All Rights Reserved</p>
+            <p style="padding-left: 25%; float: left;">
+                Copyright (c) Pure Bliss - 2020
+            </p>
+            <p style="float: right;">
+                <img class="footer-img" src="images/social_icons/twitter.png" alt="twitter" />
+                <img class="footer-img" src="images/social_icons/facebook.png" alt="facebook" />
+                <img class="footer-img" src="images/social_icons/pinterest.png" alt="pinterest" />
+                <img class="footer-img" src="images/social_icons/you_tube.png" alt="you_tube" />
+            </p>
+        </footer>
+    </div>
+</body>
+<!-- Body Ends Here -->
+
+</html>
