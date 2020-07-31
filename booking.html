@@ -17,7 +17,6 @@
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
-
     <script src="js/scripts.js"></script>
 </head>
 
@@ -35,7 +34,7 @@
                         <a class="nav-link" href="#"><i class="fa fa-fw fa-user"></i> About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="booking.html"><i class="fa fa-fw fa-envelope"></i> Bookings</a>
+                        <a class="nav-link" href="booking.html"><i class="fa fa-fw fa-bookmark"></i> Bookings</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="fa fa-fw fa-envelope"></i> Contact Us</a>
@@ -69,11 +68,11 @@
                     <div class="row">
                         <div class="col">
                             <label for="Fname" id="label">First Name:</label>
-                            <input type="text" class="form-control" placeholder="Enter First Name" id="name" name="MERGE1">
+                            <input type="text" class="form-control" placeholder="Enter First Name" id="fname" name="MERGE1">
                         </div>
                         <div class="col">
                             <label for="Lname" id="label">Last Name:</label>
-                            <input type="text" class="form-control" placeholder="Enter last Name" id="name" name="MERGE1">
+                            <input type="text" class="form-control" placeholder="Enter last Name" id="lname" name="MERGE1">
                         </div>
                     </div>
                     <br>
@@ -98,33 +97,33 @@
                             <div class="col">
                                 <div class="form-check-inline">
                                     <label class="form-check-label">
-                    <input type="checkbox" class="form-check-input" value="Beauty Services">Beauty Services
+                    <input type="checkbox" id="group_1" name="group[16580][1]" class="form-check-input" value="Beauty Services">Beauty Services
                   </label>
                                 </div>
                                 <div class="form-check-inline">
                                     <label class="form-check-label">
-                    <input type="checkbox" class="form-check-input" value="Executive Barber Service">Executive Barber
+                    <input type="checkbox" id="group_2" name="group[16580][2]" class="form-check-input" value="Executive Barber Service">Executive Barber
                     Service
                   </label>
                                 </div>
                                 <div class="form-check-inline">
                                     <label class="form-check-label">
-                    <input type="checkbox" class="form-check-input" value="Hair Services">Hair Services
+                    <input type="checkbox" id="group_8" name="group[16580][8]" class="form-check-input" value="Hair Services">Hair Services
                   </label>
                                 </div>
                                 <div class="form-check-inline">
                                     <label class="form-check-label">
-                    <input type="checkbox" class="form-check-input" value="Spa and Coiffure">Spa and Coiffure
+                    <input type="checkbox" id="group_16" name="group[16580][16]" class="form-check-input" value="Spa and Coiffure">Spa and Coiffure
                   </label>
                                 </div>
                                 <div class="form-check-inline">
                                     <label class="form-check-label">
-                    <input type="checkbox" class="form-check-input" value="Nail Services">Nail Services
+                    <input type="checkbox" id="group_4" name="group[16580][4]" class="form-check-input" value="Nail Services">Nail Services
                   </label>
                                 </div>
                                 <div class="form-check-inline">
                                     <label class="form-check-label">
-                    <input type="checkbox" class="form-check-input" value="Kids Grooming Services">Kids Grooming
+                    <input type="checkbox" id="group_5" name="group[16580][5]" class="form-check-input" value="Kids Grooming Services">Kids Grooming
                     Services
                   </label>
                                 </div>
@@ -138,11 +137,11 @@
                     <div class="row">
                         <div class="col">
                             <h6 id="label">Date of Appointment:</b6>
-                                <input placeholder="Select date" type="date" id="date" class="form-control">
+                                <input placeholder="Select date" type="date" id="date" name="MERGE4" class="form-control">
                         </div>
                         <div class="col">
                             <h6 id="label">Choose Appointment Slot:</b6>
-                                <select class="form-control" id="slot">
+                                <select class="form-control" id="slot" name="MERGE5">
                                   <option value="">Select Slot</option>
                                   <option value="8AM - 10AM">8AM - 10AM</option>
                                   <option value="10AM - 12PM">10AM - 12PM</option>
@@ -157,7 +156,7 @@
                     <div class="row">
                         <div class="col">
                             <label for="comment" id="label">Any other requests:</label>
-                            <textarea class="form-control" rows="5" id="comment"></textarea>
+                            <textarea class="form-control" rows="5" id="comment" name="MERGE6"></textarea>
                         </div>
                     </div>
 
