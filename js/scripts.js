@@ -23,20 +23,20 @@ function div_hide() {
     document.getElementById('pb-form').style.display = "none";*/
 
 //Function for Contact-us form notifications
-$(document).ready(function() {
-    $("form#message-form").submit(function(event) {
-        var name = $("input#name").val();
-        var email = $("input#usermail").val();
-        var message = $("textarea#comment").val();
-        if ($("input#name").val() && $("input#usermail").val()) {
-            alert(
-                name +
-                ", we have received your message. Thank you for reaching out to us."
-            );
-        } else {
-            alert("Please enter your name and email!");
-        }
-    });
+$(document).ready(function () {
+  $("form#message-form").submit(function (event) {
+    var name = $("input#username").val();
+    var email = $("input#usermail").val();
+    var message = $("textarea#comment").val();
+    if ($("input#username").val() && $("input#usermail").val()) {
+      alert(
+        name +
+          ", we have received your message. Thank you for reaching out to us."
+      );
+    } else {
+      alert("Please enter your name and email!");
+    }
+  });
 });
 //to cater for the services section
 $(document).ready(function() {
