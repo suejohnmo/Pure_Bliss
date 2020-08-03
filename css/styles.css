@@ -1,5 +1,5 @@
 .contact_form {
-    background-image: url(../images/contact.jpg);
+    background-image: radial-gradient(circle, white, deeppink);
     padding-top: 10px;
     padding-bottom: 10px;
     font-weight: 600px;
@@ -43,13 +43,13 @@
 .btn1 {
     width: 20%;
     float: left;
-    background-color: #4caf50;
+    background-color: purple;
 }
 
 .btn2 {
     width: 20%;
     float: right;
-    background-color: #e90505;
+    background-color: grey;
 }
 
 .footer {
@@ -107,7 +107,7 @@ h2#close {
 
 .logo {
     text-align: right;
-    background-image: linear-gradient(to right, black, deeppink);
+    background-image: linear-gradient(to right, black, rgb(255, 0, 136));
 }
 
 .logo img {
