@@ -25,10 +25,10 @@ function div_hide() {
 //Function for Contact-us form notifications
 $(document).ready(function () {
   $("form#message-form").submit(function (event) {
-    var name = $("input#username").val();
+    var name = $("input#name").val();
     var email = $("input#usermail").val();
     var message = $("textarea#comment").val();
-    if ($("input#username").val() && $("input#usermail").val()) {
+    if ($("input#name").val() && $("input#usermail").val()) {
       alert(
         name +
           ", we have received your message. Thank you for reaching out to us."
